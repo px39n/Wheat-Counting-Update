@@ -165,10 +165,8 @@ Network | ovall-MAE | overall-MSE| Precision | MAE/MSE/P in XX scale
 ---|--- |---|---|---
 MCNN | 8.73  | 12.38 |  | 
 CRSNet | 4.41 | 6.27 | | 
-Normal CNN | row 1 col 2  | row 1 col 2 |  | 
-row 2 col 1 | row 2 col 2 | row 1 col 2 |  | 
-row 1 col 1 | row 1 col 2  | row 1 col 2 |  | 
-row 2 col 1 | row 2 col 2 | row 1 col 2 |  | 
+Normal CNN |   |  |  | 
+
 
 
 #### The latest wheat detection
