@@ -153,6 +153,8 @@ Table: WMSD overall according to scale
 
 #### Model: 
 [model on Google Colab](https://colab.research.google.com/drive/1oIx7ymw9D52MdqMrzggfn4LmIG3OQyeg#scrollTo=-f-jjZBKqIes)
+[Article on Google Doc](https://docs.google.com/document/d/19SvvBv9TvnBNH9PCDPEJwj_M22tNus4HlqSmUcLgriI/edit?usp=sharing)
+
 - Propose a adaptive line density map algorithm based on adaptive Gaussian kernel
 (Point Gaussian kernel sequence according to the length)
 
