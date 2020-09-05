@@ -152,7 +152,8 @@ Table: WMSD overall according to scale
 
 
 #### Model: 
-[model on Google Colab](https://colab.research.google.com/drive/1oIx7ymw9D52MdqMrzggfn4LmIG3OQyeg#scrollTo=-f-jjZBKqIes)
+[MCNN model on Google Colab](https://colab.research.google.com/drive/1oIx7ymw9D52MdqMrzggfn4LmIG3OQyeg#scrollTo=-f-jjZBKqIes)
+[WDCN model on Google Colab](https://colab.research.google.com/drive/1XnuYC7Zja1QnJVx6fvbEmJjW0eCXLNhU?usp=sharing)
 [Article on Google Doc](https://docs.google.com/document/d/19SvvBv9TvnBNH9PCDPEJwj_M22tNus4HlqSmUcLgriI/edit?usp=sharing)
 
 - Propose a adaptive line density map algorithm based on adaptive Gaussian kernel
@@ -161,13 +162,17 @@ Table: WMSD overall according to scale
 
 <img src="https://github.com/px39n/Wheat-Counting-Update/blob/master/train_sample.JPG?raw=true" height="200"/>
 
-- Evaluated two network MCNN and RSNet and compare thier accuracy on WMSD
+- Proposed a End to End Dilated network suitable for different scale scenes
 
-Network | ovall-MAE | overall-MSE| Precision | MAE/MSE/P in XX scale
+- Evaluated two network MCNN and WDCN and compare thier accuracy on WMSD and spike
+
+- Three images were used as pre-training due to average low value of WMSD line density map( easy to converge to 0)
+
+Network | ovall-MAE | overall-MSE| SPIKE MAE | overall
 ---|--- |---|---|---
-MCNN | 8.73  | 12.38 |  | 
-CRSNet | 4.41 | 6.27 | | 
-Normal CNN |   |  |  | 
+MCNN | 8.73  | 12.38 | 7.25 | 
+Tasselnet | 9.7 | 13.8 | 5.96| 
+WDCN |  4.41 |  6.27 | 2.83 | 
 
 
 
